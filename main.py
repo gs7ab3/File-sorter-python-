@@ -47,4 +47,5 @@ for item in os.listdir(folder):
                 add_to_log(f"Fail: {item}")
             break
 
-add_to_log(f"XxX Done. Files relocated: {count}\n XxX")
+add_to_log(f"XxX Done. Files relocated: {count} XxX")
+print("Done, check the log file for results")
